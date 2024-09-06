@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR" id="bootstrap-override">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Saúde do Homem - Paternidade e Cuidado
+  </title>
+
+  <!-- Style sheets -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Scripts -->
+  <script src="./js/script.js"></script>
+
+</head>
+
+<body >
+
+  <!-- #region Header -->
+  <div class="container-fluid header">
+    <div class="container">
+      <!-- Left side -->
+      <div class="left-bar d-none d-md-block">
+        <div class="title">
+          <span>Paternidade</span><br> e Cuidado
+        </div>
+      </div>
+
+      <!-- Right side -->
+      <div class="right-bar">
+        <img src="img/icon--saude-do-homem.svg" alt="Saúde do Homem">
+        <i class="bi bi-list" onclick="showhide('click', '#menu')"
+          id="menuIcon"></i>
+      </div>
+
+      <!-- Menu -->
+      <div id="menu">
+        <a href="https://unasus-cp.moodle.ufsc.br/mod/resource/view.php?id=9012" target="_blank">
+          Livro do curso
+        </a>
+        <a href="https://unasus-cp.moodle.ufsc.br/mod/resource/view.php?id=9013" target="_blank">
+          Guia do curso
+        </a>
+        <a href="https://unasus-cp.moodle.ufsc.br/mod/questionnaire/view.php?id=8908"
+          target="_blank">
+          Tomada de opinião
+        </a>
+        <a href="creditos.html" target="_blank">
+          Créditos
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <!-- #endregion -->
+
+  <!-- Spacer -->
+  <div style="height: 72px;"></div>
+
+  <article >
+    <div class="title">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12"><h1>Desafio</div><h1>
+        </div>
+      </div>
+    </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12 content">
+          <p>
+            Na sociedade atual, ainda há um postura machista sobre o papel do homem como cuidador. A paternidade pode ser uma estratégia para a inserção dos homens na agenda dos serviços de saúde. Também pode contribuir para a melhor relação entre a família e incentivar o homem a cuidar da sua saúde. Porém, para muitos profissionais de saúde, o reconhecimento da paternidade ainda é um desafio. Conheça algumas situações comuns vivenciadas por pais que foram até o serviço de saúde com seus filhos, assistindo o vídeo a seguir.
+          </p>
+
+          <div class="row colunas">
+            <div
+            class="col-md-6 d-flex justify-content-center align-items-center"
+            style="position: relative;"
+            >
+              <img
+                src="img/icon--video-color.png" 
+                onclick="loadVideo(this, 'player', 'mB4DBE2Pkn4')"
+                style="width: 100%; cursor: pointer;"
+              >
+              <div
+                id="player"
+                style="
+                  width: 100%; height: 300px; display: none;
+                  ">
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+              <p>
+                No cotidiano certamente você também se depara com diversas figuras paternas, tal como vimos no vídeo. Porém, independentemente disso, o profissional deve acolher o bebê e seu núcleo de convívio, considerando os benefícios da figura paterna. Fique atento neste curso sobre a importância da paternidade. Para aprofundar seus conhecimentos sobre a temática da paternidade e suas relações com a saúde dos homens, leia o conteúdo a seguir.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </article>
+
+  <nav class="nav-menu">
+    <button onclick="navigate('back')"><img src="img/nav/buttonBack.png" alt="Voltar"></button>
+    <div>
+      <a href="sobre-o-curso.html">
+        <img src="img/nav/SaudeTrab_sobreCursoColor.png" alt="Sobre o curso">
+      </a>
+      <div class="line"></div>
+      <a href="desafio.html">
+        <img src="img/nav/SaudeTrab_desafioColor.png" alt="Desafio">
+      </a>
+      <div class="line"></div>
+      <a href="unidade-1.html">
+        <img src="img/nav/SaudeTrab_interagindoWhite.png" alt="Unidade 1">
+      </a>
+      <div class="line"></div>
+      <a href="reconhecendo-a-realidade.html">
+        <img src="img/nav/SaudeTrab_recARealidadeWhite.png" alt="Reconhecendo a realidade">
+      </a>
+      <div class="line"></div>
+      <a href="questoes-avaliativas.html">
+        <img src="img/nav/SaudeTrab_questoesAvalWhite.png" alt="Questões avaliativas">
+      </a>
+      <div class="line"></div>
+      <a href="tomada-de-opiniao.html">
+        <img src="img/nav/SaudeTrab_tomadaOpiniaoWhite.png" alt="Tomada de opinião">
+      </a>
+    </div>
+    <button onclick="navigate('next')"><img src="img/nav/buttonFor.png" alt="Avançar"></button>
+  </nav>
+
+</body>
+
+</html>
