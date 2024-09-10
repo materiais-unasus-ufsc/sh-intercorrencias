@@ -95,8 +95,7 @@ h5 {
   font-weight: 700;
 }
 
-@font-face {
-  /*regular*/
+/* @font-face {
   font-family: OpenSans;
   src: url(fonts/OpenSans-Regular.ttf);
 }
@@ -119,7 +118,7 @@ h5 {
 @font-face {
   font-family: rawline-800;
   src: url(fonts/rawline-800.ttf);
-}
+} */
 
 /* FONTE ANTIGA */
 /* @font-face {
@@ -135,7 +134,7 @@ h5 {
 	}
 	 */
 
-@font-face {
+/* @font-face {
   font-family: Roboto-Bold;
   src: url(fonts/Roboto-Bold-webfont.woff);
 }
@@ -166,7 +165,7 @@ h5 {
 @font-face {
   font-family: Raleway-Bold;
   src: url(fonts/Raleway-Bold.ttf);
-}
+} */
 
 :root {
   --bs-body-font-family: "OpenSans", sans-serif;
