@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/rawline?styles=28868');
+
 article * {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
@@ -66,7 +68,8 @@ h1 {
   line-height: 44px;
   font-weight: bold;
   color: #474e56;
-  font-family: "rawline-700";
+  font-family: "Rawline", sans-serif;
+  font-weight: 700;
 }
 
 h2 {
@@ -74,7 +77,8 @@ h2 {
   color: #474e56;
   font-weight: bold;
   line-height: 38px !important;
-  font-family: "rawline-800";
+  font-family: "Rawline", sans-serif;
+  font-weight: 800;
 }
 
 h3 {
@@ -82,11 +86,13 @@ h3 {
   color: #474e56;
   font-weight: bold;
   line-height: 32px !important;
-  font-family: "rawline-800";
+  font-family: "Rawline", sans-serif;
+  font-weight: 800;
 }
 
 h5 {
-  font-family: "rawline-700";
+  font-family: "Rawline", sans-serif;
+  font-weight: 700;
 }
 
 @font-face {
@@ -414,7 +420,8 @@ p a:hover {
 .creditos > .titulo {
   margin-bottom: 16px !important;
 
-  font-family: "rawline-700", sans-serif;
+  font-family: "Rawline", sans-serif;
+  font-weight: 700;
   font-weight: 500;
   font-size: 28px;
   color: #474e56;
@@ -422,7 +429,8 @@ p a:hover {
 
 .creditos > .subtitulo {
   margin: 16px 0 !important;
-  font-family: "rawline-700", sans-serif;
+  font-family: "Rawline", sans-serif;
+  font-weight: 700;
   font-weight: 500;
   font-size: 20px;
   color: #474e56;
