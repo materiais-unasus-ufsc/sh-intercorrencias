@@ -10,7 +10,7 @@
 }
 
 .box-0 {
-  background: url("../img/moodleface/Paternidade_backPersona.png");
+  background: url("../img/moodleface/backPersona.png");
   background-size: 100% 500px;
   background-position: 0px 0px;
   background-repeat: no-repeat;
@@ -222,7 +222,7 @@ a:hover {
     left: 10px;
   }
   .box-0 {
-    background: url("../img/moodleface/Paternidade_backPersona.png");
+    background: url("../img/moodleface/backPersona.png");
     background-size: 100% 720px;
     background-position: 0px 0px;
     background-repeat: no-repeat;
@@ -259,7 +259,7 @@ a:hover {
     font-size: 14px !important;
   }
   .box-0 {
-    background: url("../img/moodleface/Paternidade_backPersona.png");
+    background: url("../img/moodleface/backPersona.png");
     background-size: 100% 750px;
     background-position: 0px 0px;
     background-repeat: no-repeat;

@@ -303,7 +303,7 @@ async function loadAllSVGs() {
 }
 
 function navigate(option) {
-  (mainPageURL = "https://unasus-cp.moodle.ufsc.br/course/view.php?id=415"),
+  (mainPageURL = "https://unasus-cp.moodle.ufsc.br/course/view.php?id=416"),
     (pages = [
       "sobre-o-curso.html",
       "desafio.html",

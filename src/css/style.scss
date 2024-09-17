@@ -2,14 +2,14 @@
 
 $capa: url("../img/capa.png");
 
-$main-color: hsl(70, 37%, 36%);
-$main-color--light: hsl(70, 37%, 46%);
-$main-color--lighter: hsl(70, 37%, 56%);
-$main-color--lightest: hsl(70, 37%, 66%);
-$main-color--hyperlight: hsl(70, 37%, 86%);
-$main-color--dark: hsl(70, 37%, 31%);
-$main-color--darker: hsl(70, 37%, 26%);
-$main-color--darkest: hsl(70, 37%, 21%);
+$main-color: hsl(154, 30%, 63%);
+$main-color--light: hsl(154, 30%, 73%);
+$main-color--lighter: hsl(154, 30%, 83%);
+$main-color--lightest: hsl(154, 30%, 93%);
+$main-color--hyperlight: hsl(154, 30%, 98%);
+$main-color--dark: hsl(154, 30%, 53%);
+$main-color--darker: hsl(154, 30%, 48%);
+$main-color--darkest: hsl(154, 30%, 43%);
 
 $secondary-color: hsl(210, 37%, 47%);
 $sumario-title-color: rgb(65, 94, 86);
@@ -123,7 +123,7 @@ article {
   //   $main-color--lightest 50%,
   //   white 100%
   // );
-  background-image: url('../img/moodleface/Paternidade_topLine.png');
+  background-image: url("../img/moodleface/topLine.png");
   background-size: 100vw;
   background-position: center;
 
@@ -446,7 +446,7 @@ article {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 
-  >:last-child {
+  > :last-child {
     margin-bottom: 0;
   }
 }
@@ -503,7 +503,6 @@ article {
     color: rgb(72, 72, 72);
     font-size: 1.1rem;
   }
-
 }
 /* #endregion */
 
