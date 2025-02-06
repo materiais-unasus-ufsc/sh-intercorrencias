@@ -1,20 +1,17 @@
-# Sobre o Curso
+# Intercorrências na Saúde Sexual e Reprodutiva do Homem
 
-## Intercorrências na Saúde Sexual e Reprodutiva do Homem
+Antes de começar, tenha certeza de que você tem acesso ao comando `npm`.
 
-Seja bem-vindo ao curso **"Intercorrências na saúde sexual e reprodutiva do homem"**.
+## Instruções de desenvolvimento
 
-Neste curso, abordaremos como reconhecer as principais intercorrências na saúde sexual e reprodutiva do homem. Refletiremos sobre os principais aspectos da abordagem dos profissionais de saúde na Atenção Primária à Saúde, com o objetivo de estimular a aproximação da população masculina aos serviços de saúde e contribuir para a ampliação de novas práticas de cuidado.
+Clone este repositório e navegue para dentro do seu diretório.
 
-## Conteúdo do Curso
+Instale as dependências do projeto:
+```
+npm install
+```
 
-Para auxiliar em seu aprendizado, o conteúdo está organizado nas seguintes unidades:
-
-### Unidade 1
-Resumo unidade 1
-
-### Unidade 2
-Resumo unidade 2
-
-### Unidade 3
-Resumo unidade 3
+Para fazer com que o sass observe as mudanças nos arquivos .scss, rode o seguinte comando:
+```
+npm run sass
+```
